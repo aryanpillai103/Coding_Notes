@@ -19,7 +19,15 @@ console.log(yearsUntillRetirement(1991));
 ```
 
 ```javascript
-function fruitProcessor(apples,oranges){
-	const = applePieces = curApplePiec
+function cutFruitPieces(fruit){
+	return fruit*4;
 }
+function fruitProcessor(apples,oranges){
+	const applePieces = cutFruitPieces(apples);
+	const orangePieces = cutFruitPieces(orange);
+	const juice = `juice with ${applePieces} pieces of apple and 
+	${orangePieces} pieces of orange.`;
+	return juice;
+}
+console.log(fruitProcessor(2,3));
 ```
