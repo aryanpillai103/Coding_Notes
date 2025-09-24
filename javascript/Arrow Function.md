@@ -9,7 +9,12 @@ consol.log(age3);
 ```
 
 ```javascript
+//arrow function does not require return statement
 const yearsUnitlRetirement = birthYear => {
-	const 
+	const age = 2037-birthYear;
+	const = retirement = 65-age;
+	return retirement;
 }
+console.log(yearsUntillRetirement(1991));
 ```
+
