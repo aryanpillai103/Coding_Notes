@@ -9,4 +9,8 @@ console.log(friends.length);//returns length of array
 
 console.log(friends.length);
 friends[2] = 'Jay';//replace value at index 2
+const firstName = 'Jonas';
+const jonas = [firstName, 'Schmedmann',2037-1991,'teacher',friends];
+
+
 ```
