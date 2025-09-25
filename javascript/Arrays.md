@@ -19,3 +19,10 @@ friennds.unshift('John'); //add element at first place
 friends.pop() //remove the last element of the array
 friends.shift();//remove first element of the array
 ```
+
+```javascript
+console.log(friends.insertOf('Steven'));
+console.log(friends.insertOf('Bob'));
+
+console.log(friends.include('Steven'));//check if the element exist in array
+```
