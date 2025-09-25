@@ -11,6 +11,11 @@ console.log(friends.length);
 friends[2] = 'Jay';//replace value at index 2
 const firstName = 'Jonas';
 const jonas = [firstName, 'Schmedmann',2037-1991,'teacher',friends];
+```
 
-
+```javascript
+const newLength = friends.push('Jay'); //returns length of array without calculating
+friennds.unshift('John'); //add element at first place
+friends.pop() //remove the last element of the array
+friends.shift();//remove first element of the array
 ```
