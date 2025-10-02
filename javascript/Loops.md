@@ -38,4 +38,16 @@ for(let i = 0 ; i < years.length ; i++){
 	ages.push(2037 - years[i]);
 }
 console.log(ages);
+
+//continue
+for(let i = 0 ;i < jonas.length ; i++){
+	if(typeof jonas[i] !== 'string') continue;
+	console.log(typeof jonas[i])
+}
+
+//break
+for(let i = 0 ;i < n ; i++){
+	if(typeof jonas[i] == 'number')break;
+	console.log(jonas[i]);
+}
 ```
