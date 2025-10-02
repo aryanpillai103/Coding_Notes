@@ -14,13 +14,16 @@ const jonas = [
 	'teacher',
 	['Michael','Peter','Steven']
 ];
+
 //hardcoded
 for(let i = 0 ; i < 5 ; i++){
 	console.log(jonas[i]);
 }
+
 //dynamically typed
 for(let i = 0 ; i < jonas.length ; i++){
 }
+
 //array of types of array above
 const types = [];
 for(int i = 0 ; i < jonas.length ; i++){
@@ -30,5 +33,9 @@ for(int i = 0 ; i < jonas.length ; i++){
 console.log(types);
 
 const years = [1991,2007,2009,2020];
-
+const ages = [];
+for(let i = 0 ; i < years.length ; i++){
+	ages.push(2037 - years[i]);
+}
+console.log(ages);
 ```
