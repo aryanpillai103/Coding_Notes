@@ -14,8 +14,14 @@ const jonas = [
 	'teacher',
 	['Michael','Peter','Steven']
 ];
-
+//hardcoded
 for(let i = 0 ; i < 5 ; i++){
 	console.log(jonas[i]);
 }
+//dynamically typed
+for(let i = 0 ; i < jonas.length ; i++){
+}
+//array of types of array above
+const types = [];
+ 
 ```
