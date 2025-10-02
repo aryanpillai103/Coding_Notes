@@ -22,6 +22,7 @@ for(let i = 0 ; i < 5 ; i++){
 
 //dynamically typed
 for(let i = 0 ; i < jonas.length ; i++){
+	console.log(jonas[i]);
 }
 
 //array of types of array above
@@ -63,7 +64,17 @@ for(int i = 4 ; i >= 0 ; i--){
 for(int exercise = 1 ; exercise <= 3 ; exercise++){
 	console.log(`starting exercise ${exercise}`);
 	for(int rep = 1 ; rep < 6 ; rep++){
-		console.log(`Lifting weight repitition ${rep}`);
+		console.log(`Exercise ${exercise}: Lifting weight repitition ${rep}`);
 	}
 }
+```
+
+```javascript
+//while loop
+let rep = 1;//initialization
+while(rep <= 10){ //condition
+	console.log(rep);
+	rep++; //increment;
+}
+
 ```
