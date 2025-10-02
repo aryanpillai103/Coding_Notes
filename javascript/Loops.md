@@ -60,5 +60,10 @@ for(int i = 4 ; i >= 0 ; i--){
 }
 
 //nested loop
-for(int exercise = 1 ; exercise <= 3 ; exercise)
+for(int exercise = 1 ; exercise <= 3 ; exercise++){
+	console.log(`starting exercise ${exercise}`);
+	for(int rep = 1 ; rep < 6 ; rep++){
+		console.log(`Lifting weight repitition ${rep}`);
+	}
+}
 ```
