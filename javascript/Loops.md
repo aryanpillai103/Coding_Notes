@@ -6,4 +6,16 @@ for(let rep = 1 ; rep <= 10 ; rep++){
 }
 ```
 
+```javascript
+const jonas = [
+	'Jonas',
+	'Schemdtmann',
+	46,
+	'teacher',
+	['Michael','Peter','Steven']
+];
 
+for(let i = 0 ; i < 5 ; i++){
+	console.log(jonas[i]);
+}
+```
