@@ -53,5 +53,12 @@ for(let i = 0 ;i < n ; i++){
 ```
 
 ```javascript
+//loop backward
+//4,3,2,1,0
+for(int i = 4 ; i >= 0 ; i--){
+	console.log(i,jonas[i]);
+}
 
+//nested loop
+for(int exercise = 1 ; exercise <= 3 ; exercise)
 ```
